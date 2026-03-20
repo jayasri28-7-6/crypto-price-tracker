@@ -103,19 +103,3 @@ data/crypto_prices.csv
 
 
 
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to fork and improve this project.
-
-
-
-## 📜 License
-
-This project is open-source and free to use.
-
-
-## 👨‍💻 Author
-
-Your Name
-
----
