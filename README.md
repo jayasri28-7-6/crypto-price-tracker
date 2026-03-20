@@ -24,7 +24,8 @@ A fast and automated Python project that scrapes real-time cryptocurrency data f
 
 ## 📂 Project Structure
 
-CRYPTOCURRENCY/
+CRYPTOCURRENCY
+/
 │── crypto.py
 │── data/
 │   └── crypto_prices.csv
@@ -85,7 +86,6 @@ data/crypto_prices.csv
 
 ## ⚠️ Notes
 
-* Google Chrome must be installed
 * Internet connection required
 * If scraping fails:
 
