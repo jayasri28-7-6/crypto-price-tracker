@@ -1,105 +1,90 @@
-
-
-# 🚀 Cryptocurrency Price Tracker
-
-A fast and automated Python project that scrapes real-time cryptocurrency data from CoinMarketCap using Selenium and stores it for analysis.
-
+# Cryptocurrency Price Tracker  
+A Python-based automation project that tracks real-time cryptocurrency prices from CoinMarketCap using Selenium and Pandas.
 
 ## 📌 Features
-
-* 📊 Fetches Top 10 cryptocurrencies in real-time
-* ⏱ Fast web scraping using headless browser
-* 💾 Automatically saves data to CSV
-* 🚀 Detects top gainers (+5% in 24h)
-* 🧾 Logs timestamped data for tracking
+💰 Fetches Top 10 cryptocurrencies in real-time  
+⚡ Fast web scraping using Selenium headless browser  
+📊 Displays live crypto prices and 24h changes  
+💾 Automatically saves cryptocurrency data to CSV  
+🚀 Detects top gainers with significant price changes  
+🕒 Stores timestamped records for future analysis  
 
 ## 🛠️ Technologies Used
-
-* Python
-* Selenium
-* Pandas
-* WebDriver Manager
-
----
+- Python  
+- Selenium  
+- Pandas  
+- WebDriver Manager  
 
 ## 📂 Project Structure
-
-CRYPTOCURRENCY
-/
+```bash
+project/
 │── crypto.py
 │── data/
-│   └── crypto_prices.csv
-
-
-
+│    └── crypto_prices.csv
+```
 
 ## ⚙️ Installation
 
-1. Clone the repository:
-
-
+Clone the repository:
+```bash
 git clone https://github.com/your-username/crypto-price-tracker.git
 cd crypto-price-tracker
+```
 
-
-2. Install required packages:
-
+Install required packages:
+```bash
 pip install pandas selenium webdriver-manager
+```
 
 ## ▶️ How to Run
-
-
+```bash
 python crypto.py
+```
 
+## 🌐 Output
+- Fetches live cryptocurrency data from CoinMarketCap  
+- Displays top cryptocurrencies with prices and 24h changes  
+- Saves scraped data automatically into CSV format  
+- Tracks timestamped market information for analysis  
 
-
-
-## 📊 Sample Output
-
-
-Fetching real-time cryptocurrency data from CoinMarketCap...
-
-Latest Data:
-Name        Price       24h Change
-Bitcoin     $69,969     0.16%
-Ethereum    $2,133      0.03%
-
-Data saved successfully to data/crypto_prices.csv
-
+## 📊 Example Features
+- View Top 10 cryptocurrencies  
+- Monitor 24h price changes  
+- Detect top gaining cryptocurrencies  
+- Save historical crypto data for analysis  
 
 ## 📁 Output File
-
-* CSV file is saved at:
-
+CSV file is saved at:
+```bash
 data/crypto_prices.csv
+```
 
-* Contains:
-
-  * Timestamp
-  * Rank
-  * Name
-  * Price
-  * 24h Change
-  * Market Cap
-
-
+### Contains:
+- Timestamp  
+- Rank  
+- Cryptocurrency Name  
+- Price  
+- 24h Change  
+- Market Cap  
 
 ## ⚠️ Notes
+- Internet connection is required  
 
-* Internet connection required
-* If scraping fails:
+If scraping fails:
+```python
+time.sleep(6)
+```
 
-  * Increase delay (`time.sleep(6)`)
-  * Run with `headless=False`
-
-
+Run browser with:
+```python
+headless=False
+```
 
 ## 🚀 Future Improvements
-
-* 📈 Add data visualization (graphs)
-* 🌐 Convert into Django web application
-* 🔔 Add price alert system
-* 📡 Real-time dashboard
-
+📈 Add cryptocurrency price visualization charts  
+🔔 Implement real-time price alert system  
+🌐 Convert project into a web application  
+📡 Add live dashboard for tracking crypto trends  
+🤖 Integrate AI-based price prediction system  
 
 
