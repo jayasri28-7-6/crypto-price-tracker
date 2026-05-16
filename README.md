@@ -1,21 +1,21 @@
 # Cryptocurrency Price Tracker  
 A Python-based automation project that tracks real-time cryptocurrency prices from CoinMarketCap using Selenium and Pandas.
 
-## 📌 Features
-💰 Fetches Top 10 cryptocurrencies in real-time  
-⚡ Fast web scraping using Selenium headless browser  
-📊 Displays live crypto prices and 24h changes  
-💾 Automatically saves cryptocurrency data to CSV  
-🚀 Detects top gainers with significant price changes  
-🕒 Stores timestamped records for future analysis  
+## Features
+ Fetches Top 10 cryptocurrencies in real-time  
+ Fast web scraping using Selenium headless browser  
+ Displays live crypto prices and 24h changes  
+ Automatically saves cryptocurrency data to CSV  
+ Detects top gainers with significant price changes  
+ Stores timestamped records for future analysis  
 
-## 🛠️ Technologies Used
+## Technologies Used
 - Python  
 - Selenium  
 - Pandas  
 - WebDriver Manager  
 
-## 📂 Project Structure
+## Project Structure
 ```bash
 project/
 │── crypto.py
@@ -23,7 +23,7 @@ project/
 │    └── crypto_prices.csv
 ```
 
-## ⚙️ Installation
+## Installation
 
 Clone the repository:
 ```bash
@@ -36,24 +36,24 @@ Install required packages:
 pip install pandas selenium webdriver-manager
 ```
 
-## ▶️ How to Run
+## How to Run
 ```bash
 python crypto.py
 ```
 
-## 🌐 Output
+## Output
 - Fetches live cryptocurrency data from CoinMarketCap  
 - Displays top cryptocurrencies with prices and 24h changes  
 - Saves scraped data automatically into CSV format  
 - Tracks timestamped market information for analysis  
 
-## 📊 Example Features
+## Example Features
 - View Top 10 cryptocurrencies  
 - Monitor 24h price changes  
 - Detect top gaining cryptocurrencies  
 - Save historical crypto data for analysis  
 
-## 📁 Output File
+## Output File
 CSV file is saved at:
 ```bash
 data/crypto_prices.csv
@@ -67,7 +67,7 @@ data/crypto_prices.csv
 - 24h Change  
 - Market Cap  
 
-## ⚠️ Notes
+## Notes
 - Internet connection is required  
 
 If scraping fails:
@@ -80,11 +80,11 @@ Run browser with:
 headless=False
 ```
 
-## 🚀 Future Improvements
-📈 Add cryptocurrency price visualization charts  
-🔔 Implement real-time price alert system  
-🌐 Convert project into a web application  
-📡 Add live dashboard for tracking crypto trends  
-🤖 Integrate AI-based price prediction system  
+## Future Improvements
+ Add cryptocurrency price visualization charts  
+ Implement real-time price alert system  
+ Convert project into a web application  
+ Add live dashboard for tracking crypto trends  
+ Integrate AI-based price prediction system  
 
 
